@@ -5,7 +5,7 @@ module.exports.config = {
   name: 'Convert',
   version: '1.0.0',
   permission: 0,
-  credits: '★SAURABH THAKUR★',
+  credits: '★𝐌𝟗𝐇𝟒𝐌𝐌𝟒𝐃-𝐁𝟒𝐃𝟗𝐋★',
   prefix:true,
   description: 'Convert media from a link (supports jpeg, jpg, png, mp4, gif, wav)',
   category: 'Media',
