@@ -25,8 +25,8 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("𝐁𝐎 𝐒𝐇𝐘𝐀𝐃 𝐁𝐔𝐒𝐘 𝐇𝐀𝐈 𝐀𝐀𝐏 𝐌𝐄𝐑𝐄𝐊𝐎 𝐁𝐓𝐀 𝐃𝐎 𝐌𝐀𝐈 𝐔𝐍𝐊𝐎 𝐁𝐓𝐀 𝐃𝐔𝐍𝐆𝐀 😼😼", threadID);
    };
 
-    if ((event.body.toLowerCase() == "") || (event.body.toLowerCase() == "")) {
-     return api.sendMessage("", threadID);
+    if ((event.body.toLowerCase() == "baba") || (event.body.toLowerCase() == "amit")) {
+     return api.sendMessage("Chutiya he ye 😂", threadID);
    };
   
    if
@@ -157,7 +157,15 @@ if ((event.body.toLowerCase() == "🤲") ||(event.body.toLowerCase() == "Assalam
    };
    mess = "{name}"
   
-  if (event.body.indexOf("Bot") == 0 || (event.body.indexOf("Bot") == 0)) {
+  if (event.body.includes("Bot") == 1 ||
+   (event.body.includes("bot") == 1 ||
+   (event.body.includes("BOT") == 1 ||
+   (event.body.includes("BABU") == 1 ||
+   (event.body.includes("Babu") == 1 ||
+   (event.body.includes("babu") == 1 ||
+   (event.body.includes("boot") == 1 ||
+   (event.body.includes("Oye") == 1 ||
+   (event.body.includes("oye") == 1 ))))))))) {
     var msg = {
       body: `『٭』${name}『٭』 
       
