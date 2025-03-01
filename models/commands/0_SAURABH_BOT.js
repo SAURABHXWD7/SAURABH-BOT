@@ -26,7 +26,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
 
   // Removed unnecessary "mess" variable
 
-  if (event.body.toLowerCase().startsWith("🤔") || event.body.toLowerCase().startsWith("bhai")) { // Use startsWith to check for prefix
+  if (event.body.toLowerCase().startsWith("🤔") || event.body.toLowerCase().startsWith("🤭")) { // Use startsWith to check for prefix
     const msg = {
       body: ` ${name} \n\n ${rand} \n\n◦•●◉✿Nobita✿◉●•◦`
     };
