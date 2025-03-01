@@ -157,8 +157,8 @@ if ((event.body.toLowerCase() == "🤲") ||(event.body.toLowerCase() == "Assalam
    };
    mess = "{name}"
   
-  if (event.body.includes("Bot") == 1 ||
-   (event.body.includes("bot") == 1 ||
+  if (event.body.includes("Bacha") == 1 ||
+   (event.body.includes("bcha") == 1 ||
    (event.body.includes("BOT") == 1 ||
    (event.body.includes("BABU") == 1 ||
    (event.body.includes("Babu") == 1 ||
